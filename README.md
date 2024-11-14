@@ -1,10 +1,20 @@
-# Anti AI and Quantum Computer Core Development IDE Platform
+### Explanation of Changes:
+- The error typically happens when Mermaid cannot recognize a specific syntax or node type. In the corrected version, I ensure that the flowchart syntax is clear and conforms to the supported diagram types.
+- You need to ensure that the Mermaid block is properly closed with three backticks (` ```mermaid `) at the beginning and end of the diagram code block.
 
-## Project Overview
+### How to Apply It:
+1. Copy the corrected code.
+2. Paste it into your `README.md` file inside your project repository.
+3. Commit the changes and push them to your GitHub repository.
 
-This project integrates AI and quantum computing technologies for a core development IDE platform. The system uses classical AI combined with quantum computing for enhanced problem-solving capabilities.
+### Git Commands:
+After updating the `README.md`, use these Git commands:
 
-## Workflow Diagram
+```bash
+git add README.md
+git commit -m "Fixed Mermaid diagram syntax"
+git push origin main
+
 
 ```mermaid
 flowchart TD
@@ -23,19 +33,3 @@ flowchart TD
     F --> N[One-Sample t-test]
     F --> O[Two-Sample t-test]
 
-### Explanation of Changes:
-- The error typically happens when Mermaid cannot recognize a specific syntax or node type. In the corrected version, I ensure that the flowchart syntax is clear and conforms to the supported diagram types.
-- You need to ensure that the Mermaid block is properly closed with three backticks (` ```mermaid `) at the beginning and end of the diagram code block.
-
-### How to Apply It:
-1. Copy the corrected code.
-2. Paste it into your `README.md` file inside your project repository.
-3. Commit the changes and push them to your GitHub repository.
-
-### Git Commands:
-After updating the `README.md`, use these Git commands:
-
-```bash
-git add README.md
-git commit -m "Fixed Mermaid diagram syntax"
-git push origin main
